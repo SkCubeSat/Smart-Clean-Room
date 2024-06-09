@@ -1,0 +1,4 @@
+Monitor the main entrance to the clean room, signalling the pi to take a photo when needed
+    - able to detect motion
+    - ignores data from the motion detector for 1 second to avoid spam pictures
+    - signals the pi to take a photo

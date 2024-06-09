@@ -1,0 +1,10 @@
+To manage the humidity in the secure section of the clean room
+    - Read data from a humidity sensor
+    - Turn on/off the humidfier based on sensor data
+
+
+To sound an alarm if someone enters the secure section of the clean room without scanning
+    - Detect entering the secure section
+    - Sound alarm if someone enters after 5 seconds
+    - Read card data
+    - Compare card data to a list of acceptable cards
