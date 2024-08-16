@@ -1,4 +1,0 @@
-When given a signal from the arduino, takes a picture and then sends it to a server with a timestamp.
-    - able to rceieve a signal from the arduino
-    - able to take photo
-    - adble to send data to a server
