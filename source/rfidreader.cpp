@@ -1,7 +1,7 @@
 #include <pigpio.h>
 #include <MFRC522.h>
 #include "timer.h"
-#include "rfid_thread.h"  
+#include "rfidreader.h"  
 #include <cstdio> 
 
 #define RST_PIN 25    // Configurable, depending on your wiring
