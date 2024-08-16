@@ -1,4 +1,5 @@
 #include "motion_sensor.h";
+#include "timer.h"
 
 bool is_motion_detected() {
     return false;
