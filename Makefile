@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Wall -pedantic -g -pthread -lpigpio -lrt
+CFLAGS = -Wall -pedantic -pthread
 
 .PHONY: all clean
 
@@ -9,4 +9,4 @@ clean:
 	rm -rf test
 
 test: source/main.cpp
-	$(CC) $(CFLAGS) source/main.cpp -o test
+	$(CC) $(CFLAGS) -o test source/main.cpp -lpigpio -lrt
